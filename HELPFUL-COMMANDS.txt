@@ -32,3 +32,33 @@ DEACTIVATING VIRTUAL ENVIRONMENT
 (.venv) root@jupyterlab-6b4944f65b-jlhx6:/workspace/anly5810# deactivate
 
 * Notice how the "(.venv)" part before the line in the terminal indicates that the virtual environment is activated. After deactivating, this will go away.
+
+----------
+
+FINDING THE PACKAGES FROM THE ORIGINAL ENVIRONMENT
+
+root@jupyterlab-6b4944f65b-jlhx6:/workspace/anly5810# python3 -m pip freeze | grep "==" > requirements.txt
+
+* This will put all the packages installed in the original environment into a text file that we can use for creating the virtual environment
+
+----------
+
+INSTALLING PACKAGES IN THE VIRTUAL ENVIRONMENT
+
+(.venv) root@jupyterlab-6b4944f65b-jlhx6:/workspace/anly5810# python3 -m pip install -r requirements.txt
+
+* Note that the environment is activated so that we can install the packages in it
+
+* There's currently an error with this due to a missing existing package potentially
+
+
+
+
+pip install packaging
+
+apex==0.1 >> apex
+cubinlinker==0.3.0+2.g405ac64 >> cubinlinker >> none
+cuda-python==12.3.0rc4+9.gdb8c48a.dirty >> cuda-python==12.3.0
+cudf==23.12.0 >> cudf
+cugraph==23.12.0 >> cugraph
+cugraph-dgl==23.12.0 >> none
