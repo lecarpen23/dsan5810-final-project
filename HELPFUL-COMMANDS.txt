@@ -1,0 +1,34 @@
+
+HELPFUL COMMANDS FOR USE THROUGHOUT THIS PROJECT
+
+----------
+
+CHANGING GIT USERS
+
+root@jupyterlab-6b4944f65b-jlhx6:/workspace/anly5810# git config --global user.name "My Name"
+root@jupyterlab-6b4944f65b-jlhx6:/workspace/anly5810# git config --global user.email "myemail@example.com"
+
+* For example,
+
+root@jupyterlab-6b4944f65b-jlhx6:/workspace/anly5810# git config --global user.name "mattmoriarty341"
+root@jupyterlab-6b4944f65b-jlhx6:/workspace/anly5810# git config --global user.email "mdm341@georgetown.edu"
+
+* Note that you probably will not be able to perform any git commands if you are not the current user. To see who the current user is, use the following command:
+
+root@jupyterlab-6b4944f65b-jlhx6:/workspace/anly5810# git config --list
+
+----------
+
+ACTIVATING VIRTUAL ENVIRONMENT
+
+root@jupyterlab-6b4944f65b-jlhx6:/workspace/anly5810# source .venv/bin/activate
+
+* Note that this will add a "(.venv)" to the beginning of the line in the terminal, indicating that the virtual environment has been activated.
+
+----------
+
+DEACTIVATING VIRTUAL ENVIRONMENT
+
+(.venv) root@jupyterlab-6b4944f65b-jlhx6:/workspace/anly5810# deactivate
+
+* Notice how the "(.venv)" part before the line in the terminal indicates that the virtual environment is activated. After deactivating, this will go away.
