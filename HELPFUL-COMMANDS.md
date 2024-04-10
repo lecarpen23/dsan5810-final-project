@@ -45,7 +45,7 @@ root@jupyterlab-6b4944f65b-jlhx6:/workspace/anly5810# python -m venv --system-si
 ## ACTIVATING VIRTUAL ENVIRONMENT
 
 ```{bash}
-root@jupyterlab-6b4944f65b-jlhx6:/workspace/anly5810# source .venv/bin/activate
+root@jupyterlab-6b4944f65b-jlhx6:/workspace/anly5810# source sandbox/.venv/bin/activate
 ```
 
 * Note that this will add a "(.venv)" to the beginning of the line in the terminal, indicating that the virtual environment has been activated.
@@ -63,6 +63,7 @@ root@jupyterlab-6b4944f65b-jlhx6:/workspace/anly5810# source .venv/bin/activate
 ## ENABLING VIRTUAL ENVIRONMENT TO BE CHOSEN AS A KERNEL IN JUPYTER NOTEBOOK
 ```{bash}
 (.venv) root@jupyterlab-6b4944f65b-jlhx6:/workspace/anly5810# python -m ipykernel install --user --name=venv --display-name="venv"
+python3 -m ipykernel install --user --name=.venv --display-name='venv'
 ```
 ----------
 
@@ -125,6 +126,41 @@ pip install protobuf && python $TRANSFORM --input_dir ./llama-2-7b-chat --model_
 
 
 ------------
+## Run an Evaluation
+
+0. Make sure helm is installed (it should be on venv) using:
+
+```{bash}
+pip install git+https://github.com/stanford-crfm/helm.git
+```
+
+1. Make sure your model is ready for evaluation
+2. Edit conf file to point to the model you want to use, each entry should have model=your_model
+3. Run evaluations:
+
+```{bash}
+helm-run --conf-paths run_specs.conf --suite v1 --max-eval-instances 10 --server-url localhost:5812 --enable-local-huggingface-models <path-to-model>
+
+# the below should be the 'full' neurIPS model evaluation -- which is the same as our project eval
+helm-run --conf-paths run_specs.conf --suite v1 --max-eval-instances 10
+helm-summarize --suite v1
+```
+
+4. View Results
+
+    a. Print Results using:
+```{bash}
+        helm-summarize --suite v1
+```
+        
+    b. Launch web server
+```{bash}
+        helm-server --suite v1
+```
+     
+
+
+------------
 ## extra packages that we may or may not need in the venv (should already be in there)
 
 ```{bash}
@@ -133,3 +169,27 @@ pip install numpy
 pip install pandas
 pip install torch torchvision torchaudio
 ```
+
+------------
+
+helm-run --run-entries "mmlu:subject=anatomy,model_deployment=simple/model1" --suite v1 --max-eval-instances 10
+
+helm-summarize --suite v1
+
+helm-server -p 5812
+
+------------
+
+helm-run --run-entries "mmlu:subject=anatomy,model_deployment=/workspace/anly5810/evaluation/local-models/llama-2-7b-hf" --suite v1 --max-eval-instances 10
+
+helm-summarize --suite v1
+
+helm-server -p 5812
+
+------------
+
+helm-run --run-entries "mmlu:subject=anatomy,model_deployment=meta-llama/Llama-2-7b-chat-hf" --suite v1 --max-eval-instances 10
+
+helm-summarize --suite v1
+
+helm-server -p 5812

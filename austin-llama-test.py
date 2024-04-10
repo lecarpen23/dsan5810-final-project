@@ -10,7 +10,7 @@ warnings.filterwarnings("ignore", message="TypedStorage is deprecated.*")
 print("Loading model...\n")
 
 # Load Model
-model_dir = "./models/llama-2-7b-chat-hf"
+model_dir = "./evaluation/local-models/llama-2-7b-chat-hf"
 model = LlamaForCausalLM.from_pretrained(model_dir)
 
 # Load Tokenizer
