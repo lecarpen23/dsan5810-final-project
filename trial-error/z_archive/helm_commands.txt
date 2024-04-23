@@ -1,0 +1,23 @@
+cd anly5810/sandbox
+source .venv/bin/activate
+python3 -m ipykernel install --user --name=venv --display-name="venv"
+
+
+helm-run \
+    --run-entries boolq:model=stanford-crfm/BioMedLM \
+    --enable-huggingface-models stanford-crfm/BioMedLM \
+    --suite v1 \
+    --max-eval-instances 10
+    
+    
+    helm-run\
+    --conf-paths run_specs.conf \
+    --enable-huggingface-models stanford-crfm/BioMedLM \
+    --suite v1 \
+    --max-eval-instances 10
+    
+    
+        helm-run\
+    --conf-paths test.conf \
+    --suite v1 \
+    --max-eval-instances 10
