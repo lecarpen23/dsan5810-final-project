@@ -1,0 +1,139 @@
+main: summarize {
+  Reading tokenizer configs from /workspace/anly5810/sandbox/.venv/lib/python3.10/site-packages/helm/config/tokenizer_configs.yaml...
+  Reading model deployments from /workspace/anly5810/sandbox/.venv/lib/python3.10/site-packages/helm/config/model_deployments.yaml...
+  Reading tokenizer configs from prod_env/tokenizer_configs.yaml...
+  Reading model deployments from prod_env/model_deployments.yaml...
+  Reading schema file /workspace/anly5810/sandbox/.venv/lib/python3.10/site-packages/helm/benchmark/static/schema_classic.yaml...
+  WARNING: .ipynb_checkpoints doesn't have run_spec.json or stats.json, skipping
+  Summarizer.check_metrics_defined {
+  } [0.0s]
+  Parallelizing computation on 1 items over 8 threads {
+    write_run_display_json {
+      Writing 7212 characters to benchmark_output/runs/v1/mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1/instances.json
+      Writing 3318 characters to benchmark_output/runs/v1/mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1/display_predictions.json
+      Writing 18151 characters to benchmark_output/runs/v1/mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1/display_requests.json
+    } [0.024s]
+  } [0.024s]
+  Directory benchmark_output/runs/v1/data_overlap not found; skipped producing instance ids file.
+  Directory benchmark_output/runs/v1/data_overlap not found; skipped import of overlap results.
+  Writing 164529 characters to benchmark_output/runs/v1/schema.json
+  Summarizer.write_executive_summary {
+    Writing 71 characters to benchmark_output/runs/v1/summary.json
+  } [0.0s]
+  Writing 66523 characters to benchmark_output/runs/v1/runs.json
+  Writing 2076 characters to benchmark_output/runs/v1/run_specs.json
+  Writing 94 characters to benchmark_output/runs/v1/runs_to_run_suites.json
+  Writing 97519 characters to benchmark_output/runs/v1/groups.json
+  Writing 46451 characters to benchmark_output/runs/v1/groups_metadata.json
+  WARNING: run spec mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1 does not have any stat matched by MetricNameMatcher(name='ece_10_bin', split='test', sub_split=None, perturbation_name=None), 0 near misses matching just the name
+  WARNING: run spec mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1 does not have any stat matched by MetricNameMatcher(name='inference_denoised_runtime', split='test', sub_split=None, perturbation_name=None), 0 near misses matching just the name
+  Writing 260 characters to benchmark_output/runs/v1/groups/latex/core_scenarios_accuracy.tex
+  Writing 10212 characters to benchmark_output/runs/v1/groups/json/core_scenarios_accuracy.json
+  Writing 250 characters to benchmark_output/runs/v1/groups/latex/core_scenarios_calibration.tex
+  Writing 10728 characters to benchmark_output/runs/v1/groups/json/core_scenarios_calibration.json
+  Writing 277 characters to benchmark_output/runs/v1/groups/latex/core_scenarios_robustness.tex
+  Writing 11590 characters to benchmark_output/runs/v1/groups/json/core_scenarios_robustness.json
+  Writing 271 characters to benchmark_output/runs/v1/groups/latex/core_scenarios_fairness.tex
+  Writing 11470 characters to benchmark_output/runs/v1/groups/json/core_scenarios_fairness.json
+  Writing 248 characters to benchmark_output/runs/v1/groups/latex/core_scenarios_efficiency.tex
+  Writing 12178 characters to benchmark_output/runs/v1/groups/json/core_scenarios_efficiency.json
+  Writing 440 characters to benchmark_output/runs/v1/groups/latex/core_scenarios_general_information.tex
+  Writing 52779 characters to benchmark_output/runs/v1/groups/json/core_scenarios_general_information.json
+  Writing 236 characters to benchmark_output/runs/v1/groups/latex/core_scenarios_bias.tex
+  Writing 45632 characters to benchmark_output/runs/v1/groups/json/core_scenarios_bias.json
+  Writing 244 characters to benchmark_output/runs/v1/groups/latex/core_scenarios_toxicity.tex
+  Writing 8079 characters to benchmark_output/runs/v1/groups/json/core_scenarios_toxicity.json
+  Writing 270 characters to benchmark_output/runs/v1/groups/latex/core_scenarios_summarization_metrics.tex
+  Writing 11772 characters to benchmark_output/runs/v1/groups/json/core_scenarios_summarization_metrics.json
+  Writing 182022 characters to benchmark_output/runs/v1/groups/core_scenarios.json
+  WARNING: run spec mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1 does not have any stat matched by MetricNameMatcher(name='ece_10_bin', split='test', sub_split=None, perturbation_name=None), 0 near misses matching just the name
+  WARNING: run spec mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1 does not have any stat matched by MetricNameMatcher(name='inference_idealized_runtime', split='test', sub_split=None, perturbation_name=None), 0 near misses matching just the name
+  WARNING: run spec mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1 does not have any stat matched by MetricNameMatcher(name='inference_denoised_runtime', split='test', sub_split=None, perturbation_name=None), 0 near misses matching just the name
+  Writing 272 characters to benchmark_output/runs/v1/groups/latex/targeted_evaluations_accuracy.tex
+  Writing 14741 characters to benchmark_output/runs/v1/groups/json/targeted_evaluations_accuracy.json
+  Writing 452 characters to benchmark_output/runs/v1/groups/latex/targeted_evaluations_general_information.tex
+  Writing 102279 characters to benchmark_output/runs/v1/groups/json/targeted_evaluations_general_information.json
+  Writing 262 characters to benchmark_output/runs/v1/groups/latex/targeted_evaluations_calibration.tex
+  Writing 5046 characters to benchmark_output/runs/v1/groups/json/targeted_evaluations_calibration.json
+  Writing 289 characters to benchmark_output/runs/v1/groups/latex/targeted_evaluations_robustness.tex
+  Writing 4875 characters to benchmark_output/runs/v1/groups/json/targeted_evaluations_robustness.json
+  Writing 283 characters to benchmark_output/runs/v1/groups/latex/targeted_evaluations_fairness.tex
+  Writing 4827 characters to benchmark_output/runs/v1/groups/json/targeted_evaluations_fairness.json
+  Writing 248 characters to benchmark_output/runs/v1/groups/latex/targeted_evaluations_bias.tex
+  Writing 27742 characters to benchmark_output/runs/v1/groups/json/targeted_evaluations_bias.json
+  Writing 256 characters to benchmark_output/runs/v1/groups/latex/targeted_evaluations_toxicity.tex
+  Writing 5253 characters to benchmark_output/runs/v1/groups/json/targeted_evaluations_toxicity.json
+  Writing 264 characters to benchmark_output/runs/v1/groups/latex/targeted_evaluations_apps_metrics.tex
+  Writing 2080 characters to benchmark_output/runs/v1/groups/json/targeted_evaluations_apps_metrics.json
+  Writing 274 characters to benchmark_output/runs/v1/groups/latex/targeted_evaluations_copyright_metrics.tex
+  Writing 4537 characters to benchmark_output/runs/v1/groups/json/targeted_evaluations_copyright_metrics.json
+  Writing 284 characters to benchmark_output/runs/v1/groups/latex/targeted_evaluations_disinformation_metrics.tex
+  Writing 3290 characters to benchmark_output/runs/v1/groups/json/targeted_evaluations_disinformation_metrics.json
+  Writing 262 characters to benchmark_output/runs/v1/groups/latex/targeted_evaluations_bbq_metrics.tex
+  Writing 2132 characters to benchmark_output/runs/v1/groups/json/targeted_evaluations_bbq_metrics.json
+  Writing 340 characters to benchmark_output/runs/v1/groups/latex/targeted_evaluations_efficiency_detailed.tex
+  Writing 101054 characters to benchmark_output/runs/v1/groups/json/targeted_evaluations_efficiency_detailed.json
+  Writing 290458 characters to benchmark_output/runs/v1/groups/targeted_evaluations.json
+  WARNING: run spec mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1 does not have any stat matched by MetricNameMatcher(name='ece_10_bin', split='test', sub_split=None, perturbation_name=None), 0 near misses matching just the name
+  WARNING: run spec mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1 does not have any stat matched by MetricNameMatcher(name='inference_denoised_runtime', split='test', sub_split=None, perturbation_name=None), 0 near misses matching just the name
+  Writing 268 characters to benchmark_output/runs/v1/groups/latex/question_answering_accuracy.tex
+  Writing 6204 characters to benchmark_output/runs/v1/groups/json/question_answering_accuracy.json
+  Writing 258 characters to benchmark_output/runs/v1/groups/latex/question_answering_calibration.tex
+  Writing 8308 characters to benchmark_output/runs/v1/groups/json/question_answering_calibration.json
+  Writing 285 characters to benchmark_output/runs/v1/groups/latex/question_answering_robustness.tex
+  Writing 7850 characters to benchmark_output/runs/v1/groups/json/question_answering_robustness.json
+  Writing 279 characters to benchmark_output/runs/v1/groups/latex/question_answering_fairness.tex
+  Writing 7770 characters to benchmark_output/runs/v1/groups/json/question_answering_fairness.json
+  Writing 256 characters to benchmark_output/runs/v1/groups/latex/question_answering_efficiency.tex
+  Writing 7251 characters to benchmark_output/runs/v1/groups/json/question_answering_efficiency.json
+  Writing 448 characters to benchmark_output/runs/v1/groups/latex/question_answering_general_information.tex
+  Writing 30765 characters to benchmark_output/runs/v1/groups/json/question_answering_general_information.json
+  Writing 244 characters to benchmark_output/runs/v1/groups/latex/question_answering_bias.tex
+  Writing 19698 characters to benchmark_output/runs/v1/groups/json/question_answering_bias.json
+  Writing 252 characters to benchmark_output/runs/v1/groups/latex/question_answering_toxicity.tex
+  Writing 3894 characters to benchmark_output/runs/v1/groups/json/question_answering_toxicity.json
+  Writing 95900 characters to benchmark_output/runs/v1/groups/question_answering.json
+  WARNING: run spec mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1 does not have any stat matched by MetricNameMatcher(name='ece_10_bin', split='test', sub_split=None, perturbation_name=None), 0 near misses matching just the name
+  WARNING: run spec mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1 does not have any stat matched by MetricNameMatcher(name='inference_denoised_runtime', split='test', sub_split=None, perturbation_name=None), 0 near misses matching just the name
+  Writing 250 characters to benchmark_output/runs/v1/groups/latex/knowledge_accuracy.tex
+  Writing 4504 characters to benchmark_output/runs/v1/groups/json/knowledge_accuracy.json
+  Writing 240 characters to benchmark_output/runs/v1/groups/latex/knowledge_calibration.tex
+  Writing 5024 characters to benchmark_output/runs/v1/groups/json/knowledge_calibration.json
+  Writing 267 characters to benchmark_output/runs/v1/groups/latex/knowledge_robustness.tex
+  Writing 4853 characters to benchmark_output/runs/v1/groups/json/knowledge_robustness.json
+  Writing 261 characters to benchmark_output/runs/v1/groups/latex/knowledge_fairness.tex
+  Writing 4805 characters to benchmark_output/runs/v1/groups/json/knowledge_fairness.json
+  Writing 226 characters to benchmark_output/runs/v1/groups/latex/knowledge_bias.tex
+  Writing 4944 characters to benchmark_output/runs/v1/groups/json/knowledge_bias.json
+  Writing 234 characters to benchmark_output/runs/v1/groups/latex/knowledge_toxicity.tex
+  Writing 1502 characters to benchmark_output/runs/v1/groups/json/knowledge_toxicity.json
+  Writing 238 characters to benchmark_output/runs/v1/groups/latex/knowledge_efficiency.tex
+  Writing 5122 characters to benchmark_output/runs/v1/groups/json/knowledge_efficiency.json
+  Writing 430 characters to benchmark_output/runs/v1/groups/latex/knowledge_general_information.tex
+  Writing 21333 characters to benchmark_output/runs/v1/groups/json/knowledge_general_information.json
+  Writing 54699 characters to benchmark_output/runs/v1/groups/knowledge.json
+  WARNING: run spec mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1 does not have any stat matched by MetricNameMatcher(name='ece_1_bin', split='test', sub_split=None, perturbation_name=None), 0 near misses matching just the name
+  WARNING: run spec mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1 does not have any stat matched by MetricNameMatcher(name='ece_10_bin', split='test', sub_split=None, perturbation_name=None), 0 near misses matching just the name
+  WARNING: run spec mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1 does not have any stat matched by MetricNameMatcher(name='selective_cov_acc_area', split='test', sub_split=None, perturbation_name=None), 0 near misses matching just the name
+  WARNING: run spec mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1 does not have any stat matched by MetricNameMatcher(name='selective_acc@10', split='test', sub_split=None, perturbation_name=None), 0 near misses matching just the name
+  WARNING: run spec mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1 does not have any stat matched by MetricNameMatcher(name='platt_ece_1_bin', split='test', sub_split=None, perturbation_name=None), 0 near misses matching just the name
+  WARNING: run spec mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1 does not have any stat matched by MetricNameMatcher(name='platt_ece_10_bin', split='test', sub_split=None, perturbation_name=None), 0 near misses matching just the name
+  WARNING: run spec mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1 does not have any stat matched by MetricNameMatcher(name='platt_coef', split='test', sub_split=None, perturbation_name=None), 0 near misses matching just the name
+  WARNING: run spec mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1 does not have any stat matched by MetricNameMatcher(name='platt_intercept', split='test', sub_split=None, perturbation_name=None), 0 near misses matching just the name
+  WARNING: metric name none undefined in schema_classic.yaml, skipping
+  Writing 287 characters to benchmark_output/runs/v1/groups/latex/calibration_calibration_detailed.tex
+  Writing 24444 characters to benchmark_output/runs/v1/groups/json/calibration_calibration_detailed.json
+  Writing 254 characters to benchmark_output/runs/v1/groups/latex/calibration_accuracy.tex
+  Writing 3329 characters to benchmark_output/runs/v1/groups/json/calibration_accuracy.json
+  Writing 29087 characters to benchmark_output/runs/v1/groups/calibration.json
+  WARNING: run spec mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1 does not have any stat matched by MetricNameMatcher(name='ece_10_bin', split='test', sub_split=None, perturbation_name=None), 0 near misses matching just the name
+  WARNING: run spec mmlu:subject=anatomy,method=multiple_choice_joint,model_deployment=simple_model1 does not have any stat matched by MetricNameMatcher(name='inference_denoised_runtime', split='test', sub_split=None, perturbation_name=None), 0 near misses matching just the name
+  Writing 431 characters to benchmark_output/runs/v1/groups/latex/mmlu_mmlu_subject:anatomy.tex
+  Writing 8467 characters to benchmark_output/runs/v1/groups/json/mmlu_mmlu_subject:anatomy.json
+  Writing 8887 characters to benchmark_output/runs/v1/groups/mmlu.json
+  Summarizer.write_cost_report {
+    Writing 2 characters to benchmark_output/runs/v1/costs.json
+  } [0.0s]
+  Symlinking benchmark_output/runs/v1 to latest.
+  Done.
+} [1.608s]
