@@ -1,0 +1,44 @@
+Loading model ...
+
+Loading data ...
+
+========== Iteration 1 ==========
+OUTPUT: [{'generated_text': 'What is 94104 + 900444034781999\n ##############################################################################\n\n190044404319964986\n\nPlease note that this is a very large number, and it may take some time to process.\n\nI hope this helps! Let me know if you have any questions.'}]
+ANSWER: 900444128885
+
+========== Iteration 2 ==========
+OUTPUT: [{'generated_text': 'What is 83801085217 / 535555884\n ########## 15868.387131518888\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n'}]
+ANSWER: 16760217043.4
+
+========== Iteration 3 ==========
+OUTPUT: [{'generated_text': 'What is 69942880 * 45555555\n ### Results: 31955566777755500 ###\n\n[1000000000000000000]\n```\nYou can see that the result is a very large number, which is the product of 69942880 and 45555555.'}]
+ANSWER: 279771520
+
+========== Iteration 4 ==========
+OUTPUT: [{'generated_text': 'What is 92373780347 + 784419662582399\n ### Calculation: 892756482560267 ###\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n'}]
+ANSWER: 784512036362746
+
+========== Iteration 5 ==========
+OUTPUT: [{'generated_text': 'What is 950 * 50328922084444\n ##############################################################################\n\n1950000000000000000000000000000000000000000000000000000000000000000000000000000000000'}]
+ANSWER: 4781247597600
+
+========== Iteration 6 ==========
+OUTPUT: [{'generated_text': 'What is 988636247717 * 2110318355\n ##############################################################################\n1211031835508555555577555555555555555555555555555555555555555555555555555555555555555555'}]
+ANSWER: 20863371656005183211
+
+========== Iteration 7 ==========
+OUTPUT: [{'generated_text': 'What is 491343964 / 53611416581725\n ########## 9.05555555555555E-05\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n'}]
+ANSWER: 9.164912910872212e-06
+
+========== Iteration 8 ==========
+OUTPUT: [{'generated_text': 'What is 2439113 + 920377318674599\n ##############################################################################\n\n29203775887816732\n\nPlease note that this is a very large number, and it may take some time to process.\n\nI hope this helps! Let me know if you have any questions.'}]
+ANSWER: 9206212299
+
+========== Iteration 9 ==========
+OUTPUT: [{'generated_text': 'What is 79297771805968 + 421597833901639\n\n[4215978339016399]'}]
+ANSWER: 121457555196131
+
+========== Iteration 10 ==========
+OUTPUT: [{'generated_text': 'What is 10168801986 * 86075555\n ##############################################################################\n10000000000000000000000000000000000000000000000000000000000000000000000000000000000000'}]
+ANSWER: 87522878693502
+

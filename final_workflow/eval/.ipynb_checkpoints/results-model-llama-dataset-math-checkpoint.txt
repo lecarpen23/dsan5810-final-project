@@ -1,0 +1,44 @@
+Loading model ...
+
+Loading data ...
+
+========== Iteration 1 ==========
+OUTPUT: [{'generated_text': 'What is 94104 + 900444034781?\n everybody loves to play games, but not everybody can win.\n\n'}]
+ANSWER: 900444128885
+
+========== Iteration 2 ==========
+OUTPUT: [{'generated_text': 'What is 83801085217 / 50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'}]
+ANSWER: 16760217043.4
+
+========== Iteration 3 ==========
+OUTPUT: [{'generated_text': "What is 69942880 * 4321?\n nobody knows the answer to that question.\n\nBut here's a hint: it's a very large number!"}]
+ANSWER: 279771520
+
+========== Iteration 4 ==========
+OUTPUT: [{'generated_text': 'What is 92373780347 + 784419662582399?\n hopefully someone can help me with this.\n\n'}]
+ANSWER: 784512036362746
+
+========== Iteration 5 ==========
+OUTPUT: [{'generated_text': 'What is 950 * 503289220811194302?\n everybody loves math!\n\n'}]
+ANSWER: 4781247597600
+
+========== Iteration 6 ==========
+OUTPUT: [{'generated_text': 'What is 988636247717 * 211031831037?\n hopefully someone can help me with this.\n\nAnswer:\n\nThe result of multiplying 988636247717 by 211031831037 is:\n\n988636247717 x 211031831037 = 2058537777655757'}]
+ANSWER: 20863371656005183211
+
+========== Iteration 7 ==========
+OUTPUT: [{'generated_text': 'What is 491343964 / 536114165817251429?'}]
+ANSWER: 9.164912910872212e-06
+
+========== Iteration 8 ==========
+OUTPUT: [{'generated_text': 'What is 2439113 + 9203773186?\n nobody knows the answer to that question.\n\nBut, if you want to find out, you can try using a calculator or a computer to perform the calculation.\n\nHere is the calculation:\n\n2439113 + 9203773186 = 9444004908\n\nSo, the answer to the question 2439113 + 92037'}]
+ANSWER: 9206212299
+
+========== Iteration 9 ==========
+OUTPUT: [{'generated_text': 'What is 79297771805968 + 421597833901632?\n hopefully someone can help me with this.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n'}]
+ANSWER: 121457555196131
+
+========== Iteration 10 ==========
+OUTPUT: [{'generated_text': 'What is 10168801986 * 860739451742219938?\n\nAnswer:\n\nThe result of multiplying 10168801986 by 860739451742219938 is:\n\n10168801986 × 860739451742219938 = 8,835'}]
+ANSWER: 87522878693502
+

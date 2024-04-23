@@ -1,0 +1,44 @@
+Loading model ...
+
+Loading data ...
+
+========== Iteration 1 ==========
+OUTPUT: [{'generated_text': 'What is 94104 + 9004440347810000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'}]
+ANSWER: 900444128885
+
+========== Iteration 2 ==========
+OUTPUT: [{'generated_text': 'What is 83801085217 / 53801085217?\n everybody is talking about it.\n\n'}]
+ANSWER: 16760217043.4
+
+========== Iteration 3 ==========
+OUTPUT: [{'generated_text': 'What is 69942880 * 49999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999'}]
+ANSWER: 279771520
+
+========== Iteration 4 ==========
+OUTPUT: [{'generated_text': 'What is 92373780347 + 7844196625823999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999'}]
+ANSWER: 784512036362746
+
+========== Iteration 5 ==========
+OUTPUT: [{'generated_text': 'What is 950 * 50328922081118472772800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'}]
+ANSWER: 4781247597600
+
+========== Iteration 6 ==========
+OUTPUT: [{'generated_text': 'What is 988636247717 * 2110318317997?\n hopefully someone can help me with this.\n\nAnswer:\n\nThe result of multiplying 988636247717 by 2110318317997 is:\n\n988636247717 x 2110318317997 = 2058253099999'}]
+ANSWER: 20863371656005183211
+
+========== Iteration 7 ==========
+OUTPUT: [{'generated_text': 'What is 491343964 / 536114165817251429?'}]
+ANSWER: 9.164912910872212e-06
+
+========== Iteration 8 ==========
+OUTPUT: [{'generated_text': 'What is 2439113 + 9203773186?\n nobody knows the answer to this question, as it is a nonsensical combination of numbers.\n\n'}]
+ANSWER: 9206212299
+
+========== Iteration 9 ==========
+OUTPUT: [{'generated_text': 'What is 79297771805968 + 421597833901632?\n hopefully someone can help me with this.\n\n'}]
+ANSWER: 121457555196131
+
+========== Iteration 10 ==========
+OUTPUT: [{'generated_text': 'What is 10168801986 * 8607394517427761?\n hopefully someone can help me with this.\n\n'}]
+ANSWER: 87522878693502
+
