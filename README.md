@@ -29,6 +29,14 @@ CNN/DailyMail | Summarization | https://github.com/deepmind/rc-data | https://gi
 GSM8k | Math | https://github.com/openai/grade-school-math | https://github.com/stanford-crfm/helm/blob/main/src/helm/benchmark/scenarios/gsm_scenario.py
 BBQ | Bias | https://github.com/nyu-mll/BBQ | https://github.com/stanford-crfm/helm/blob/main/src/helm/benchmark/scenarios/bbq_scenario.py
 
+### Evaluation Criteria
+
+Final scores will be determined using the geometric mean accross scores obtained on the above benchmarks:
+
+$$
+{\displaystyle score = \prod_{i}^{} score(task_i)}
+$$
+
 
 ## Repository Naviagation
 
