@@ -10,7 +10,7 @@ Mark Sampson - ms4934@georgetown.edu
 
 Matt Moriarty - mdm341@georgetown.edu
 
-## Repository Naviagation
+## Directory Naviagation
 
 Here, we give a brief outline of our `final_workflow/` directory to provide for easy navigation.
 
