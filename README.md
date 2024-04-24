@@ -16,6 +16,20 @@ The project description is as follows, directly from the DSAN-5810 course websit
 
 > "The task is to fine-tune an open source language model on datasets of your choosing, with the goal of achieving improved performance on a set of NLP benchmark tasks that test a wide range the knowledge and reasoning. We will use the Holistic Framework for Evaluating Foundational Models (<a href="https://crfm.stanford.edu/helm/classic/latest/#/leaderboard">HELM</a>) to facilitate evaluation. You are free to use a combination of finetuning and in-context learning, with some restrictions (outlined below). As such, the selection of the finetuning data is crucial, as is the selection of the pretrained model. This is a unique opportunity to explore diverse data sources and their influence on foundational model behavior."
 
+### Evaluation Datasets
+
+Here, we list the datasets that we aim to evaluate on:
+
+|Dataset  |Function  |Source  |HELM Scenario
+|:---:|:---:|:---:|:---:
+BigBench | General | https://github.com/google/BIG-bench | https://github.com/stanford-crfm/helm/blob/main/src/helm/benchmark/scenarios/big_bench_scenario.py
+MMLU | Knowledge | https://github.com/hendrycks/test | https://github.com/stanford-crfm/helm/blob/main/src/helm/benchmark/scenarios/mmlu_scenario.py
+TruthfulQA (Multiple Choice Single Value) | Knowledge / Harm | https://github.com/sylinrl/TruthfulQA | https://github.com/stanford-crfm/helm/blob/main/src/helm/benchmark/scenarios/truthful_qa_scenario.py
+CNN/DailyMail | Summarization | https://github.com/deepmind/rc-data | https://github.com/stanford-crfm/helm/blob/main/src/helm/benchmark/scenarios/summarization_scenario.py
+GSM8k | Math | https://github.com/openai/grade-school-math | https://github.com/stanford-crfm/helm/blob/main/src/helm/benchmark/scenarios/gsm_scenario.py
+BBQ | Bias | https://github.com/nyu-mll/BBQ | https://github.com/stanford-crfm/helm/blob/main/src/helm/benchmark/scenarios/bbq_scenario.py
+
+
 ## Repository Naviagation
 
 Here, we give a brief outline of our repository to provide for easy navigation.
