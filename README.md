@@ -1,4 +1,4 @@
-# ANLY5810 Final Project Group 4
+# DSAN-5810 Final Project Group 4
 
 ## Authors
 
@@ -28,9 +28,11 @@ Here, we give a brief outline of our repository to provide for easy navigation.
 
 * `sandbox/`: this directory _appears_ empty, but actually contains our virtual environment, `.venv/`. The virtual environment itself is akin to a "sandbox" in that we are constantly playing around in it by adding and removing packages until we have the right configuration to apply to our workflow. With so many packages being utilized, the virtual environment is not directly in the repository, but exists remotely in the file system associated with our GPU.
 
-* `trial-error/`: this directory contains a collection of different files and artifacts that represent the attempts we made throughout the project that were unsuccessful, thus not belonging in the `final_workflow` directory. This includes evaluation attempts made on HELM, model quantization attempts, fine-tuning attempts, and more.
+* `trial-error/`: this directory contains a collection of different files and artifacts that represent the attempts we made throughout the project that were unsuccessful, thus not belonging in the `final_workflow/` directory. This includes evaluation attempts made on HELM, model quantization attempts, fine-tuning attempts, and more.
 
 * `.gitignore`: this file is our gitignore file, telling our repository which files to ignore when making a push. This file tells the repository to ignore large models, large data files, and other directories that may contain a lot of unnecessary files that do not belong in the repository.
 
 * `README.md`: this file is, of course, the README file that describes the repository.
+
+Please note that the `final_workflow/` and `trial-error/` directories have additional `README` files within them to further describe the files within them.
 
