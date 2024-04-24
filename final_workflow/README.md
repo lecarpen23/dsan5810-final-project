@@ -24,12 +24,12 @@ Here, we give a brief outline of our `final_workflow/` directory to provide for 
 
 * `train/`: this directory contains the training scripts used to perform fine-tuning on our models. This includes fine-tuning on mathematics data (`math_training.py`)and question-and-answer data (`qa_training.py`), as well as utility functions to help those processes run more smoothly (`util_functions.py`).
 
+* `README.md`: this file is, of course, the README file that describes this directory.
+
 * `get_data.ipynb`: this notebook allows us to download question-and-answer data into our `data/` folder.
 
 * `llama-test.py`: this script allows us to test a Llama model to ensure that it is able to process inputs and provide responses.
 
 * `model-eval.ipynb`: this notebook allows us to load in a fine-tuned model and evaluate it on a held-out dataset.
-
-* `README.md`: this file is, of course, the README file that describes this directory.
 
 * `synthetic-math.ipynb`: this notebook allows us to generate our own mathematics dataset for the purpose of both fine-tuning and evaluation.
